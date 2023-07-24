@@ -2,11 +2,11 @@ let handler  = async (m, { conn, usedPrefix: prefix, command, text }) => {
 try {
 switch(command) {
 case 'modapk': case 'apkmod':
-if (!text) throw `*${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙇𝘼 𝘼𝙋𝙆 𝙌𝙐𝙀 𝙌𝙐𝙄𝙀𝙍𝘼 𝘽𝙐𝙎𝘾𝘼𝙍*`        
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝘿𝙄𝙌𝙐𝙀 𝙊 𝙉𝙊𝙈𝙀 𝘿𝙊 𝘼𝙋𝙆 𝙌𝙐𝙀 𝙌𝙐𝙀𝙍 𝘽𝙐𝙎𝘾𝘼𝙍*`        
 const data2 = await fetchJson('https://api.akuari.my.id/search/searchmod2?query=' + text)
 global.fetchJson = fetchJson
 const data = data2.respon
-if (data.length < 1) return await  conn.sendMessage(m.chat, { text: '*𝙉𝙊 𝙁𝙐𝙀 𝙋𝙊𝙎𝙄𝘽𝙇𝙀 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝙍 𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 𝘿𝙀 𝙇𝘼 𝘼𝙋𝙆' }, { quoted: m } )
+if (data.length < 1) return await  conn.sendMessage(m.chat, { text: '*𝙉𝘼̃𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝙀𝙄 𝙊 𝘼𝙋𝙆 𝙌𝙐𝙀 𝙑𝙊𝘾𝙀̂ 𝙋𝙀𝘿𝙄𝙐' }, { quoted: m } )
 var srh = [];  
 for (var i = 0; i < data.length; i++) {
 srh.push({ title: data[i].title, description: '', rowId: prefix + 'dapk2 ' + data[i].link });}
@@ -15,7 +15,7 @@ const listMessage = {text: `╭┄〔 𝙈𝙊𝘿𝙊𝘼𝙋𝙆 〕┄⊱ ]\n
 await conn.sendMessage(m.chat, listMessage, { quoted: m })
 break
 case 'dapk2': 
-if (!text) throw `*${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀 𝙇𝘼 𝘼𝙋𝙆 𝙌𝙐𝙀 𝙌𝙐𝙄𝙀𝙍𝘼 𝘽𝙐𝙎𝘾𝘼𝙍\n 𝙀𝙅𝙀𝙈𝙋𝙇𝙊: ${prefix + command}* https://rexdl.com/android/minecraft-pocket-edition-apk-download1.html/`     
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()} 𝙄𝙉𝘿𝙄𝙌𝙐𝙀 𝙊 𝙉𝙊𝙈𝙀 𝘿𝙊 𝘼𝙋𝙆 𝙌𝙐𝙀 𝙌𝙐𝙀𝙍 𝘽𝙐𝙎𝘾𝘼𝙍\n 𝙀𝙅𝙀𝙈𝙋𝙇𝙊: ${prefix + command}* https://rexdl.com/android/minecraft-pocket-edition-apk-download1.html/`     
 await conn.reply(m.chat, global.wait, m)
 let data5 = await fetchJson('https://api.akuari.my.id/downloader/dlmod2?link=' + text)
 if ( data5.respon.size.replace(' MB' , '') > 200) return await conn.sendMessage(m.chat, { text: '*[ ⛔ ] ᴇʟ ᴀʀᴄʜɪᴠᴏ ᴇs ᴅᴇᴍᴀsɪᴀᴅᴏ ᴘᴇsᴀᴅᴏ*' }, { quoted: m } )
@@ -24,7 +24,7 @@ const apk5 = await conn.sendMessage(m.chat, { document: { url: data5.respon.down
 break        
 }
 } catch {
-throw `${lenguajeGB['smsAvisoFG']()} 𝙉𝙊 𝙎𝙀 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝘼𝙍 𝙉𝙄𝙉𝙂𝙐𝙉 𝙈𝙊𝘿 𝘼𝙋𝙆 𝘾𝙊𝙉 𝙀𝙎𝙀 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙇𝘼 𝘼𝙋𝙄 (𝙋𝘼𝙂𝙄𝙉𝘼) 𝙀𝙎𝙏𝘼 𝘾𝘼𝙄𝘿𝘼`
+throw `${lenguajeGB['smsAvisoFG']()} 𝙉𝘼̃𝙊 𝙀𝙉𝘾𝙊𝙉𝙏𝙍𝙀𝙄 𝙉𝙀𝙈 𝙐𝙈 𝘼𝙋𝙆 𝘾𝙊𝙈 𝙀𝙎𝙎𝙀 𝙉𝙊𝙈𝙀, 𝙋𝙊𝘿𝙀 𝙎𝙀𝙍 𝙐𝙈 𝙀𝙍𝙍𝙊 𝙉𝘼 𝙋𝘼𝙂𝙄𝙉𝘼`
 }}    
 handler.command = /^(apkmod|modapk|dapk2)$/i
 handler.limit = 3

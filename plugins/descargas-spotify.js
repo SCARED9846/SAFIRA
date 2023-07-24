@@ -23,10 +23,10 @@ _${title}_
 🌐 *URL*: 
 » _${link}_
 
-💚 *URL DE DESCARGA:* 
+💚 *URL PARA BAIXAR:* 
 » _${json2.result.link}_
 
-🎶 *Enviando canción...*
+🎶 *Enviando música...*
 ${wm}`
 
 conn.sendFile(m.chat, thumbnail, 'error.jpg', spotifyi, fkontak, m)

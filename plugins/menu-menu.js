@@ -112,7 +112,7 @@ ${readMore}
 ┃💫➺ _${usedPrefix}ping_
 ┃💫➺ _Bot_ 
 ┃💫➺ _termos e condições
-┃💫➺ _TRADUÇÃO EM: 22%
+┃💫➺ _TRADUÇÃO EM: 31%
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 FUNÇÃO SUB BOT 〕━⬣*

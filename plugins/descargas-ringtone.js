@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async(m, { conn, groupMetadata, usedPrefix, text, args, command }) => {
-if (!text) throw `*[❗] 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙏𝙀𝙓𝙏𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝙀 𝘽𝙐𝙎𝘾𝘼𝙍, 𝙀𝙅𝙀𝙈𝙋𝙇𝙊: ${usedPrefix + command} Hola*`
+if (!text) throw `*[❗] 𝙄𝙉𝘿𝙄𝙌𝙐𝙀 𝙊 𝙏𝙀𝙓𝙏𝙊 𝙌𝙐𝙀 𝘿𝙀𝙎𝙀𝙅𝘼 𝘽𝙐𝙎𝘾𝘼𝙍, 𝙀𝙓𝙀𝙈𝙋𝙇𝙊: ${usedPrefix + command} Olá*`
 let anu = await ringtone(text)
 let result = anu[Math.floor(Math.random() * anu.length)]
 conn.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })}
