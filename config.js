@@ -14,7 +14,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 global.owner = [
   ['14154603983', 'SΛFIRΛ - 𝗠𝗗', true],  
   ['553899109129', '𝙊𝙬𝙣𝙚𝙧 (1) 💻', true],
-  ['553899999999', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true]
+  ['553899248390', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true]
 ]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -34,10 +34,10 @@ global.lenguajeGB = pt  //Idioma de GataBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.openai_key = 'sk-...OzYy'
+global.openai_key = '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'
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
-global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
+global.openai_org_id = 'org-GfmVqsYHPoUfFQn4E0hIRVn7'
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 
@@ -284,92 +284,90 @@ global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
     let emot = {
-      level: '🧬 Nivel : Level',
+      level: '🧬 Nível : Level',
       limit: lenguajeGB.eDiamante(),
       exp: lenguajeGB.eExp(),
-      bank: '🏦 Banco : Bank',
+      bank: '🏦 Banco : Banco',
       diamond: lenguajeGB.eDiamantePlus(),
-      health: '❤️ Salud : Health',
+      health: '❤️ Saúde : Saúde',
       kyubi: lenguajeGB.eMagia(),
       joincount: lenguajeGB.eToken(),
       emerald: lenguajeGB.eEsmeralda(),
       stamina: lenguajeGB.eEnergia(),
-      role: '💪 Rango | Role',
+      role: '💪 Posição | Papel',
       premium: '🎟️ Premium',
-      pointxp: '📧 Puntos Exp : Point Xp',
+      pointxp: '📧 Pontos Exp : Ponto Xp',
       gold: lenguajeGB.eOro(),
-      
       trash: lenguajeGB.eBasura(),
-      crystal: '🔮 Cristal : Crystal',
-      intelligence: '🧠 Inteligencia : Intelligence',
+      crystal: '🔮 Cristal : Cristal',
+      intelligence: '🧠 Inteligência : Inteligência',
       string: lenguajeGB.eCuerda(),
-      keygold: '🔑 Llave de Oro : Key Gold',
-      keyiron: '🗝️ Llave de Hierro : Key Iron',
+      keygold: '🔑 Chave de Ouro : Chave de Ouro',
+      keyiron: '🗝️ Chave de Ferro : Chave de Ferro',
       emas: lenguajeGB.ePinata(),
-      fishingrod: '🎣 Caña de Pescar : Fishing Rod',
+      fishingrod: '🎣 Vara de Pesca : Vara de Pesca',
       gems: '🍀 Gemas : Gemas',
-      magicwand: '⚕️ Varita Mágica : Magic Wand',
-      mana: '🪄 Hechizo : Spell',
-      agility: '🤸‍♂️ Agilidad : Agility',
-      darkcrystal: '♠️ Cristal Oscuro : Dark Glass',
+      magicwand: '⚕️ Varinha Mágica : Varinha Mágica',
+      mana: '🪄 Mana : Mana',
+      agility: '🤸‍♂️ Agilidade : Agilidade',
+      darkcrystal: '♠️ Cristal Escuro : Cristal Escuro',
       iron: lenguajeGB.eHierro(),
       rock: lenguajeGB.eRoca(),
       potion: lenguajeGB.ePocion(),
       superior: '💼 Superior : Superior',
-      robo: '🚔 Robo : Robo',
-      upgrader: '🧰 Aumentar Mejora : Upgrade',
+      robo: '🚔 Roubo : Roubo',
+      upgrader: '🧰 Aumentar Melhoria : Melhorar',
       wood: lenguajeGB.eMadera(),
-      
-      strength: '🦹‍ ♀️ Fuerza : Strength',
-      arc: '🏹 Arco : Arc',
-      armor: '🥼 Armadura : Armor',
-      bow: '🏹 Super Arco : Super Bow',
-      pickaxe: '⛏️ Pico : Peak',
+      strength: '🦹‍♂️ Força : Força',
+      arc: '🏹 Arco : Arco',
+      armor: '🥼 Armadura : Armadura',
+      bow: '🏹 Arco Superior : Arco Superior',
+      pickaxe: '⛏️ Picareta : Picareta',
       sword: lenguajeGB.eEspada(),
-      
       common: lenguajeGB.eCComun(),
-      uncoommon: lenguajeGB.ePComun(),
+      uncommon: lenguajeGB.ePComun(),
       mythic: lenguajeGB.eCMistica(),
       legendary: lenguajeGB.eClegendaria(),
       petFood: lenguajeGB.eAMascots(), //?
-      pet: lenguajeGB.eCMascota(),//?
-      
-      bibitanggur: lenguajeGB.eSUva(), bibitapel: lenguajeGB.eSManzana(), bibitjeruk: lenguajeGB.eSNaranja(), bibitmangga: lenguajeGB.eSMango(), bibitpisang: lenguajeGB.eSPlatano(),
-      
-      ayam: '🐓 Pollo : Chicken',
-      babi: '🐖 Puerco : Pig',
-      Jabali: '🐗 Jabalí : Wild Boar',
-      bull: '🐃 Toro : Bull',    
-      buaya: '🐊 Cocodrilo : Alligator',    
-      cat: lenguajeGB.eGato(),    
+      pet: lenguajeGB.eCMascota(), //?
+      bibitanggur: lenguajeGB.eSUva(),
+      bibitapel: lenguajeGB.eSManzana(),
+      bibitjeruk: lenguajeGB.eSNaranja(),
+      bibitmangga: lenguajeGB.eSMango(),
+      bibitpisang: lenguajeGB.eSPlatano(),
+      ayam: '🐓 Galinha : Galinha',
+      babi: '🐖 Porco : Porco',
+      jabali: '🐗 Javali : Javali',
+      bull: '🐃 Touro : Touro',
+      buaya: '🐊 Crocodilo : Crocodilo',
+      cat: lenguajeGB.eGato(),
       centaur: lenguajeGB.eCentauro(),
-      chicken: '🐓 Pollo : Chicken',
-      cow: '🐄 Vaca : Cow', 
-      dog: lenguajeGB.ePerro(),
-      dragon: lenguajeGB.eDragon(),
-      elephant: '🐘 Elefante : Elephant',
-      fox: lenguajeGB.eZorro(),
-      giraffe: '🦒 Jirafa : Giraffe',
-      griffin: lenguajeGB.eAve(), //Mascota : Griffin',
-      horse: lenguajeGB.eCaballo(),
-      kambing: '🐐 Cabra : Goat',
-      kerbau: '🐃 Búfalo : Buffalo',
-      lion: '🦁 León : Lion',
+      chicken: '🐓 Galinha : Galinha',
+      cow: '🐄 Vaca : Vaca',
+      dog: lenguajeGB.eCachorro(),
+      dragon: lenguajeGB.eDragão(),
+      elephant: '🐘 Elefante : Elefante',
+      fox: lenguajeGB.eRaposa(),
+      giraffe: '🦒 Girafa : Girafa',
+      griffin: lenguajeGB.eAve(), // Mascote : Grifo',
+      horse: lenguajeGB.eCavalo(),
+      kambing: '🐐 Cabra : Cabra',
+      kerbau: '🐃 Búfalo : Búfalo',
+      lion: '🦁 Leão : Leão',
       money: lenguajeGB.eGataCoins(),
-      monyet: '🐒 Mono : Monkey',
+      monyet: '🐒 Macaco : Macaco',
       panda: '🐼 Panda',
-      snake: '🐍 Serpiente : Snake',
-      phonix: '🕊️ Fénix : Phoenix',
-      rhinoceros: '🦏 Rinoceronte : Rhinoceros',
+      snake: '🐍 Cobra : Cobra',
+      phoenix: '🕊️ Fênix : Fênix',
+      rhinoceros: '🦏 Rinoceronte : Rinoceronte',
       wolf: lenguajeGB.eLobo(),
-      tiger: '🐅 Tigre : Tiger',
-      cumi: '🦑 Calamar : Squid',
-      udang: '🦐 Camarón : Shrimp',
-      ikan: '🐟 Pez : Fish',
-      
-      fideos: '🍝 Fideos : Noodles',
-      ramuan: '🧪 Ingrediente NOVA : Ingredients',
-      knife: '🔪 Cuchillo : Knife'
+      tiger: '🐅 Tigre : Tigre',
+      cumi: '🦑 Lula : Lula',
+      udang: '🦐 Camarão : Camarão',
+      ikan: '🐟 Peixe : Peixe',
+      fideos: '🍝 Macarrão : Macarrão',
+      ramuan: '🧪 Ingrediente NOVA : Ingredientes',
+      knife: '🔪 Faca : Faca'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''

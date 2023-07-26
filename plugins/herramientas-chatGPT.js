@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import cheerio from 'cheerio'
 import gpt from 'api-dylux'
 let handler = async (m, { text, usedPrefix, command }) => {
-if (!text) throw `*${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉𝘼 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉 𝙊 𝙐𝙉𝘼 𝙊𝙍𝘿𝙀𝙉 𝙋𝘼𝙍𝘼 𝙐𝙎𝘼𝙍 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝘾𝙃𝘼𝙏𝙂𝙋𝙏\n\n❏ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 𝘿𝙀 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉𝙀𝙎 𝙔 𝙊𝙍𝘿𝙀𝙉𝙀𝙎\n❏ ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`    
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()} 𝘾𝙊𝙇𝙊𝙌𝙐𝙀 𝙎𝙐𝘼 𝙋𝙀𝙍𝙂𝙐𝙉𝙏𝘼 𝙋𝘼𝙍𝘼 𝙐𝙎𝘼𝙍 𝘼 𝘼𝙎𝙎𝙄𝙎𝙏𝙀̂𝙉𝘾𝙄𝘼 𝘿𝙊 𝘾𝙃𝘼𝙏𝙂𝙋𝙏\n\n❏ 𝙀𝙓𝙀𝙈𝙋𝙇𝙊 𝘿𝙀 𝙋𝙀𝘿𝙄𝘿𝙊𝙎 𝙀 𝙊𝙍𝘿𝙀𝙉𝙎\n❏ ${usedPrefix + command} Na parte superior da janela foi esculpido um brasão da Coroa Poetuguesa. O que a presença desse símbolo monárquico em uma igreja católica pode indicar?\n❏ ${usedPrefix + command} A janela produzida por Diogo de Arruda foi decorada com amarras de navio, mastros cobertos por corais, âncoras, algas e outros elementos náuticos. O que esses enfeites representam?`    
 try {
 let jailbreak = await fetch('https://raw.githubusercontent.com/Skidy89/chat-gpt-jailbreak/main/Text.txt').then(v => v.text());
 await conn.sendPresenceUpdate('composing', m.chat)

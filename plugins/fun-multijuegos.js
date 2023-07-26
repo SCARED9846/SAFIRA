@@ -73,16 +73,16 @@ if (command == 'multijuegos') {
             //let s = `Bienvenido al Multijuegos Aleeatorios`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
+{index: 1, urlButton: {displayText: 'SΛFIRΛ-𝙈𝘿', url: 'https://github.com/SCARED9846/SAFIRA'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielp3887/'}},
 {index: 3, quickReplyButton: {displayText: '𝙄𝙣𝙞𝙘𝙞𝙖𝙧 | 𝙎𝙩𝙖𝙧𝙩 ✨', id: '.juegos'}},
-{index: 4, quickReplyButton: {displayText: '𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', id: '#juegosmenu'}},
-{index: 5, quickReplyButton: {displayText: '𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', id: '#menu'}},
+{index: 4, quickReplyButton: {displayText: '𝙈𝙚𝙣𝙪 𝙅𝙤𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', id: '#juegosmenu'}},
+{index: 5, quickReplyButton: {displayText: '𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', id: '#menu'}},
 ]
  
 let t = {
 text: global.wm,
-footer: `𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙤(𝙖) ${username}\n𝙅𝙪𝙚𝙜𝙖 𝙪𝙣𝙖 𝙂𝙧𝙖𝙣 𝙫𝙖𝙧𝙞𝙚𝙙𝙖𝙙 𝙙𝙚 𝙟𝙪𝙚𝙜𝙤𝙨!!`,
+footer: `𝘽𝙀𝙈-𝙑𝙄𝙉𝘿𝙊(𝙖)! 🌟 ${username}\n𝙅𝙊𝙂𝙐𝙀 𝙐𝙈𝘼 𝙂𝙍𝘼𝙉𝘿𝙀 𝙑𝘼𝙍𝙄𝙀𝘿𝘼𝘿𝙀 𝘿𝙀 𝙅𝙊𝙂𝙊𝙎!!`,
 templateButtons: templateButtonsReplyMessage
   }
 conn.sendMessage(m.chat, t, m)
@@ -91,7 +91,7 @@ conn.sendMessage(m.chat, t, m)
   
   if (command == 'juegos') { 
     global.db.data.users[m.sender].money += 5
-    let gata = `${pickRandom([`𝙋𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝘿𝙞𝙖𝙢𝙖𝙣𝙩𝙚𝙨 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧!!`,`𝙎𝙞𝙜𝙪𝙚 𝙟𝙪𝙜𝙖𝙣𝙙𝙤 𝙥𝙖𝙧𝙖 𝙜𝙖𝙣𝙖𝙧 𝙂𝙖𝙩𝙖𝘾𝙤𝙞𝙣𝙨!!`,`𝙎𝙖𝙗𝙞𝙖𝙨 𝙦𝙪𝙚 𝙥𝙪𝙚𝙙𝙚𝙨 𝙂𝙖𝙣𝙖𝙧 𝙀𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙞𝙖 𝙖𝙡 𝙅𝙪𝙜𝙖𝙧? 𝘼𝙝𝙤𝙧𝙖 𝙮𝙖 𝙡𝙤 𝙨𝙖𝙗𝙚𝙨!!`])}`
+    let gata = `${pickRandom([`𝙑𝙊𝘾𝙀̂ 𝙋𝙊𝘿𝙀 𝙂𝘼𝙉𝙃𝘼𝙍 𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀𝙎 𝙅𝙊𝙂𝘼𝙉𝘿𝙊.!!`,`𝙎𝙀𝙂𝙐𝙀 𝙅𝙊𝙂𝘼𝙉𝘿𝙊 𝙋𝘼𝙍𝘼 𝙂𝘼𝙉𝙃𝘼𝙍 SΛCOINS!!`,`𝙎𝘼𝘽𝙄𝘼 𝙌𝙐𝙀 𝙋𝙊𝘿𝙀 𝙂𝘼𝙉𝙃𝘼𝙍 𝙀𝙓𝙋𝙀𝙍𝙄𝙀̂𝙉𝘾𝙄𝘼 𝘼𝙊 𝙅𝙊𝙂𝘼𝙍? 𝘼𝙂𝙊𝙍𝘼 𝙅𝘼́ 𝙎𝘼𝘽𝙀!!`])}`
              let c = `${usedPrefix}`
               let juegos = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}topgays`,`${c}topotakus`,`${c}mates medium`,`${c}mates noob`])}`
                let juegos2 = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}formarpareja`,`${c}ppt tijeras`,`${c}ppt piedra`])}`
@@ -101,14 +101,14 @@ conn.sendMessage(m.chat, t, m)
                    let emojis3 = `${pickRandom([`🛸`,`🚁`,`🚀`,`🧠`,`✈️`,`🚤`,`🚢`,`🚗`])}`
               
 
-              let ss = await `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`
+              let ss = await `SΛFIRΛ-𝙈𝘿 | GΛBRIΞL`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
-{index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
-{index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
-{index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},
+{index: 1, urlButton: {displayText: 'SΛFIRΛ-𝙈𝘿', url: 'https://github.com/SCARED9846/SAFIRA'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielp3887/'}},
+{index: 3, quickReplyButton: {displayText: `𝙅𝙊𝙂𝘼𝙍 ${emojis1}`, id: juegos}},
+{index: 4, quickReplyButton: {displayText: `𝙅𝙊𝙂𝘼𝙍 ${emojis2}`, id: juegos2}},
+{index: 5, quickReplyButton: {displayText: `𝙅𝙊𝙂𝘼𝙍 ${emojis3}`, id: juegos3}},
 ]
  
 let tt = {
@@ -122,11 +122,11 @@ conn.sendMessage(m.chat, tt, m)
   
  if (command == 'juegos') {
    global.db.data.users[m.sender].money += 10
-   let gata = `${pickRandom([`𝘿𝙚𝙢𝙪𝙚𝙨𝙩𝙧𝙖 𝙦𝙪𝙚 𝙥𝙪𝙚𝙙𝙚𝙨 𝙡𝙡𝙚𝙜𝙖𝙧 𝙖𝙡 𝙏𝙤𝙥 1!!`,`𝙈𝙞𝙚𝙣𝙩𝙧𝙖𝙨 𝙢𝙖𝙨 𝙅𝙪𝙚𝙜𝙖𝙨 𝙩𝙪 𝙍𝙖𝙣𝙜𝙤 𝙩𝙖𝙢𝙗𝙞𝙚𝙣 𝙨𝙪𝙗𝙞𝙧𝙖!!`,`𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖 𝙚𝙣 𝙚𝙡 𝙢𝙤𝙙𝙤 𝙈𝙪𝙡𝙩𝙞𝙟𝙪𝙚𝙜𝙤𝙨 𝙮 𝙂𝙖𝙣𝙖 𝙧𝙚𝙘𝙤𝙢𝙥𝙚𝙣𝙨𝙖𝙨!!`])}`
+   let gata = `${pickRandom([`𝙑𝙊𝘾𝙀̂ 𝙋𝙊𝘿𝙀 𝘾𝙃𝙀𝙂𝘼𝙍 𝘼𝙊 𝙏𝙊𝙋 𝟭! 🏆🥇`,`𝙑𝙊𝘾𝙀̂ 𝘾𝙊𝙉𝙎𝙀𝙂𝙐𝙀 𝘾𝙃𝙀𝙂𝘼𝙍 𝙉𝙊 𝙏𝙊𝙋 𝙇𝙀𝘼𝘿𝘽𝙊𝘼𝙍𝘿!!`,`𝙋𝘼𝙍𝙏𝙄𝘾𝙄𝙋𝙀 𝘿𝙊 𝙈𝙐𝙇𝙏𝙅𝙊𝙂𝙊𝙎 𝙀 𝙂𝘼𝙉𝙃𝙀 𝙍𝙀𝘾𝙊𝙈𝙋𝙀𝙉𝙎𝘼𝙎! 🎁🎉`])}`
             let c = `${usedPrefix}`
-             let juegos = `${pickRandom([`${c}lesbiana Yo`,`${c}doxxear`,`${c}pajero Yo`,`${c}love Tú Mejor Amigo/a`,`${c}reto`,`${c}verdad`,`${c}ppt piedra`,`${c}puta Yo`,`${c}mates medium`,`${c}simi Que`])}`
-              let juegos2 = `${pickRandom([`${c}ppt piedra`,`${c}mates noob`,`${c}pregunta El cielo y el infierno existen?`,`${c}pregunta Hay una sola vida?`,`${c}pregunta Los robots y androides podrán tener sentimientos en algún momento?`,`${c}pregunta De verdad el universo es infinito?`,`${c}pajera Yo`,`${c}manca Yo`,`${c}manco Yo`,`${c}pregunta Hay un destino?`,`${c}pregunta Se puede tener todo lo que se quiere?`])}`
-               let juegos3 = `${pickRandom([`${c}puto Él de arriba`,`${c}puta La de arriba`,`${c}pregunta Se puede viajar en el tiempo?`,`${c}pregunta Hay un solo Universo?`,`${c}rata Yo`,`${c}mates impossible`,`${c}prostituto Yo`,`${c}prostituta Yo`,`${c}pregunta Soy Pro en el Grupo?`,`${c}mates impossible2`,`${c}rata Yo`])}`
+             let juegos = `${pickRandom([`${c}lesbica`,`${c}doxxear`,`${c}pajero Yo`,`${c}love Tú Mejor Amigo/a`,`${c}reto`,`${c}verdad`,`${c}ppt piedra`,`${c}puta Yo`,`${c}mates medium`,`${c}simi Que`])}`
+              let juegos2 = `${pickRandom([`${c}ppt piedra`,`${c}mates noob`,`${c}pregunta El cielo y el infierno existen?`,`${c}pregunta Hay una sola vida?`,`${c}pregunta Los robots y androides podrán tener sentimientos en algún momento?`,`${c}pregunta De verdad el universo es infinito?`,`${c}pajera Yo`,`${c}manca`,`${c}manco`,`${c}pregunta Hay un destino?`,`${c}pregunta Se puede tener todo lo que se quiere?`])}`
+               let juegos3 = `${pickRandom([`${c}puto e o de cima`,`${c}puta e o de cima`,`${c}pergunta se pode viajar no tempo?`,`${c}pregunta Hay un solo Universo?`,`${c}rata`,`${c}mates`,`${c}prostituto`,`${c}prostituta`,`${c}pregunta Soy Pro en el Grupo?`,`${c}mates impossible2`,`${c}rata`])}`
                 let emojis1 = `${pickRandom([`😃`,`😳`,`🤑`,`🤠`,`🤭`,`😇`,`😋`,`🥴`])}`
                  let emojis2 = `${pickRandom([`🕵🏻‍♀️`,`🕵🏽‍♀️`,`🕵🏻‍♂️`,`🕵🏾‍♂️`,`👩🏿‍⚕️`,`🧑🏿‍⚕️`,`👩🏻‍⚕️`,`🧑🏻‍⚕️`,`👩🏼‍⚕️`,`🧑🏼‍⚕️`,`👩🏻‍🍳`,`🧑🏽‍🍳`,`👩🏾‍🍳`,`🧑🏿‍🍳`,`👩🏻‍🎓`,`👩🏼‍🎓`,`🧑🏾‍🎓`,`🧑🏻‍🎓`,`👩🏿‍🚀`,`🧑🏾‍🚀`,`👩🏽‍🚀`,`🧑🏽‍🚀`,`👩🏻‍⚖️`,`🧑🏻‍⚖️`,`👩🏽‍⚖️`,`🧑🏾‍⚖️`,`👩🏼‍⚖️`,`🧑🏼‍⚖️`,`🧙🏾‍♀️`,`🧙🏾‍♂️`,`🧙🏻‍♀️`,`🧙🏻‍♂️`,`🧚🏻‍♀️`,`🧚🏻‍♂️`,`🧚🏿‍♀️`,`🧚🏿‍♂️`,`🧚🏽‍♀️`,`🧚🏽‍♂️`,`🧞‍♀️`,`🧞‍♂️`,`👩🏻‍🎨`,`👩🏼‍🎨`,`👩🏿‍🎨`,`🧑🏻‍🎨`,`🧑🏼‍🎨`,`🧑🏿‍🎨`])}`
                   let emojis3 = `${pickRandom([`🍑`,`🍒`,`🍕`,`🍡`,`🍨`,`🥧`,`🍜`,`🍛`,`🍫`,`🫒`,`🍆`,`🍩`,`🍪`,`🍿`])}`
@@ -134,8 +134,8 @@ conn.sendMessage(m.chat, tt, m)
            let sss = await `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`
 
  const templateButtonsReplyMessage = [
-{index: 1, urlButton: {displayText: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', url: 'https://github.com/GataNina-Li/GataBot-MD'}},
-{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gata_dios/'}},
+{index: 1, urlButton: {displayText: 'SΛFIRΛ-𝙈𝘿', url: 'https://github.com/SCARED9846/SAFIRA'}},
+{index: 2, urlButton: {displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', url: 'https://www.instagram.com/gabrielp3887/'}},
 {index: 3, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis1}`, id: juegos}},
 {index: 4, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis2}`, id: juegos2}},
 {index: 5, quickReplyButton: {displayText: `𝙅𝙪𝙜𝙖𝙧 ${emojis3}`, id: juegos3}},

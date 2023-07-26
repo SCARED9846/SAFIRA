@@ -168,7 +168,7 @@ ${readMore}
 ┃🎡➺ _${usedPrefix}topparejas | top5parejas_
 ┃🎡➺ _${usedPrefix}gay | gay *@tag*_
 ┃🎡➺ _${usedPrefix}gay2 *nome : @tag*_
-┃🎡➺ _${usedPrefix}lesbiana *nome : @tag*_
+┃🎡➺ _${usedPrefix}lesbica *nome : @tag*_
 ┃🎡➺ _${usedPrefix}manca *nome : @tag*_
 ┃🎡➺ _${usedPrefix}manco *nome : @tag*_
 ┃🎡➺ _${usedPrefix}pajero *nome : @tag*_
@@ -196,6 +196,7 @@ ${readMore}
 ┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
 ┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
 ┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
+┃🪄➺ _${usedPrefix}chatgpt | ia | openia
 *╰━━━━━━━━━━━━⬣*
 
 *╭━━━[ CONFIGURAÇÕES - CHATS ]━━━⬣*
