@@ -54,16 +54,16 @@ let old = performance.now()
   let speed = neww - old
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
-┃➥ *CREADORA | CREATOR*
-┃ღ *𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨*
+┃➥ *CRIADOR | CREATOR*
+┃ღ *SΛFIRΛ*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CONTACTO | CONTACT* 
+┃➥ *CONTATO | CONTACT* 
 ┃ღ *${ig}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃𓃠 *VERSIÓN ACTUAL | VERSION*
+┃𓃠 *VERSÃO ATUAL | VERSION*
 ┃ღ ${vs}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *PREFIJO | PREFIX*
+┃➥ *PREFIX*
 ┃ღ *${usedPrefix}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CHATS PRIVADOS | PRIVATE CHAT*
@@ -72,16 +72,16 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *CHATS DE GRUPOS | GROUP CHAT*
 ┃ღ *${groups.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *CHATS EN TOTAL | TOTAL CHATS*
+┃➥ *CHATS EM TOTAL | TOTAL CHATS*
 ┃ღ *${chats.length}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *ACTIVIDAD | ACTIVITY*
+┃➥ *ATIVIDADE | ACTIVITY*
 ┃ღ *${uptime}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *USUARIOS | USERS*
 ┃ღ *${totalreg}* 
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *VELOCIDAD | SPEED*
+┃➥ *VELOCIDADE | SPEED*
 ┃ღ  *${speed}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
@@ -93,7 +93,7 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *RESTRICT* 
 ┃ღ ${restrict ? '*Activado ✔*' : '*Desactivado ✘*'} 
 ┃
-╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`
+╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`
 await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 /*let info = `
 ╭━━━━[ ${gt} ]━━━━━⬣
@@ -144,8 +144,8 @@ await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 
 conn.sendHydrated(m.chat, info, wm, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙑𝙚𝙧 𝙂𝙧𝙪𝙥𝙤𝙨 | 𝙎𝙚𝙚 𝙂𝙧𝙤𝙪𝙥𝙨', '#grupolista'],
-['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']
+['𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
+['𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']
 ], m,)*/
 //conn.reply(m.chat, info, m)
 }

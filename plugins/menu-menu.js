@@ -112,7 +112,7 @@ ${readMore}
 ┃💫➺ _${usedPrefix}ping_
 ┃💫➺ _Bot_ 
 ┃💫➺ _termos e condições
-┃💫➺ _TRADUÇÃO EM: 31%
+┃💫➺ _TRADUÇÃO EM: 37%
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 FUNÇÃO SUB BOT 〕━⬣*
@@ -323,10 +323,10 @@ ${readMore}
 ┃ *para que sejam Casais!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃❤️➺ _${usedPrefix}listaparejas | listship_
-┃❤️➺ _${usedPrefix}mipareja | mylove_
-┃❤️➺ _${usedPrefix}pareja | couple *@tag*_
-┃❤️➺ _${usedPrefix}aceptar | accept *@tag*_
-┃❤️➺ _${usedPrefix}rechazar | decline *@tag*_
+┃❤️➺ _${usedPrefix}casal | mylove_
+┃❤️➺ _${usedPrefix}futurarelação | couple *@tag*_
+┃❤️➺ _${usedPrefix}aceitar | accept *@tag*_
+┃❤️➺ _${usedPrefix}negar | decline *@tag*_
 ┃❤️➺ _${usedPrefix}terminar | finish *@tag*_
 *╰━━━━━━━━━━━━⬣*
 

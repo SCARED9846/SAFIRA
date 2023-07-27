@@ -68,75 +68,73 @@ let username = conn.getName(who)
 //user.registered = false
 
 let Terminos = `
-*_Toda la información que se mencione aquí no excluye a la Propietaria del Bot, y Propietarios Acredores al uso de GataBot-MD_*
-*_No Somos responsables del desconocimiento que tenga por parte de esta información._* 
+_Toda a informação mencionada aqui não exclui o Proprietário do Bot e os Proprietários Credores do uso do SΛFIRΛ-MD._
 
+_Não somos responsáveis pelo desconhecimento que você tenha em relação a esta informação._
 
-*TÉRMINOS DE PRIVACIDAD*
-_- Somos consciente del constante uso que le pueda dar al Bot, y también Garantizamos que la información como (imágenes, vídeos, enlaces, ubicación, Audios, Stickers, Gif, Contactos que Usted Proporcione en torno a Número(s) Oficial(es) No son ni serán Compartido Con Nadie, ni se usaran dicho Datos fuera del entorno del BOT._
+*TERMOS DE PRIVACIDADE*
+- Somos conscientes do uso constante que você pode fazer do Bot, e também garantimos que as informações como (imagens, vídeos, links, localização, áudios, stickers, GIFs, contatos) que você fornece relacionadas a Número(s) Oficial(is) não serão compartilhadas com ninguém, nem esses dados serão usados fora do ambiente do BOT.
 
-_- Lo que realicé con el BOT queda solo en Usted ya que en Número(s) Oficial(es) El Chat se Borra cada 24 Horas, según el tiempo de Mensajes Temporales de WhatsApp._
+- O que você realiza com o BOT fica apenas com você, pois no(s) Número(s) Oficial(is), o chat é apagado a cada 24 horas, de acordo com o tempo de Mensagens Temporais do WhatsApp.
 
-_- Es posible que en Número(s) Oficial(es) el Bot no esté Activado las 24 Horas de los 7 días de la Semana, eso no implica que no lo esté o que Propietarios NO OFICIALES puedan Hacerlo._
+- É possível que no(s) Número(s) Oficial(is) o Bot não esteja ativado 24 horas por dia, 7 dias por semana; isso não implica que não esteja ativo ou que Proprietários NÃO OFICIAIS não possam ativá-lo.
 
-_- El chat anónimo del comando #start, valga la redundancia no mostrará ningún dato de los Usuarios por parte de GataBot. Eso no implica que las personas que hagan uso de esta función puedan dar a conocer sus datos. en Número(s) Oficial(es)._
+- O chat anônimo do comando #start, valendo a redundância, não mostrará nenhum dado dos Usuários por parte do GataBot. Isso não implica que as pessoas que utilizem essa função possam divulgar seus dados em Número(s) Oficial(is).
 
-_- Los Datos que Obtenga GataBot en Cuentas Oficiales de Usuarios(as), Grupos y Ajustes del Mismo puede verse Reiniciado, Modificado, y/o Retificado con el fin de que el Bot este en Óptimas Condiciones para su Uso. (Usuarios(as) Pueden Pedir Compensación Por Instagram o por el comando #Reporte. Debe de Presentar Pruebas)._
+- Os dados que SΛFIRΛ obtém em Contas Oficiais de Usuários(as), Grupos e Configurações do Mesmo podem ser reiniciados, modificados e/ou retificados para que o Bot esteja em condições ótimas para seu uso. (Usuários(as) podem pedir compensação pelo Instagram ou pelo comando #Reporte. Deve apresentar provas).
 
-_- NO somos responsable si Hay alteraciones de este Bot no siendo Número(s) Oficial(es) y tengan de uso un Repositorio de GitHub que no corresponda al Oficial, o que implementen Usuarios de Terceros integraciones que comprometan a los(as) Usuarios(as) al utilizar Versiones no Oficiales._
+- NÃO somos responsáveis por alterações deste Bot que não sejam em Número(s) Oficial(is) e que usem um repositório GitHub que não seja o Oficial, ou que implementem integrações de Usuários de Terceiros que comprometam os(as) Usuários(as) ao utilizar versões não Oficiais.
 
-_- La función Sub Bot Garantiza la seguridad de sus Datos aplicada a Cuentas Oficiales._
+- A função "Sub Bot" garante a segurança de seus dados aplicada a Contas Oficiais.
 
+*TERMOS DE USO*
+- A informação contida neste Bot e o/a usuário/a que faça uso das mesmas assumirá conhecer os Termos e Condições, de tal forma que não haverá inconvenientes ao fazer um uso particular das funções do Bot.
 
-*TÉRMINOS DE USO* 
-_- La información que haya en este Bot y el/la usuario/a Haga uso de las Mismas asumirá saber los Términos y Condiciones de tal forma que no habrá incovenientes al hacer un uso Particular de las Funciones del Bot._
+- O Bot contém material que só pode ser visível para maiores de 18 anos. NÃO somos responsáveis se você não tiver a idade mínima para usar o Material para Adultos.
 
-_- El Bot contiene Material que solo puede ser visible para mayores de 18 Años, NO somos responsable si no cumple con la edad mínima para usar el Material para Adultos._
+- As imagens, vídeos e áudios deste Bot são de uso público, mas considerará falta de respeito realizar edições no material já existente que contenha o nome do Bot ou informações relevantes.
 
-_- Las imágenes, Vídeos y Audios que tenga este Bot son de uso Público, Pero se considerará Falta de Respeto al realizar Ediciones en el Material ya exitente que porte Nombre del Bot o información relevante._
+- Ao fazer uso de uma solicitação de entrada de grupo com uma Conta Oficial, é recomendável que o grupo não trate de temas de ódio, vírus, conteúdo indevido, temas de discriminação ou campanhas sem fundamentos.
 
-_- Al hacer uso de una solicitud para ingreso de grupo con Una Cuenta Oficial, es recomendable que el grupo no cuente con temas de Odio, virus, contenido indebido, temas de discriminación u campañas sin fundamentos._
+- Se você receber um Comunicado Oficial sendo Número(s) Oficial(es), mantenha o respeito da mesma forma se receber uma mensagem sem ter usado um comando; mantenha o respeito, pois pode, neste último caso, ser uma pessoa real.
 
-_- Si ha recibido un Comunicado Oficial siendo Número(s) Oficial(es) Mantener el Respeto de la misma manera si recibe un Mensaje sin haber usado un Comando Mantener el Respeto ya que puede en este ultimo caso ser una Persona Real._
-
-_- Las Cuentas Oficiales de GataBot no se hacen responsable del Uso que usted haga con la función "Sub Bot"._
-
+- As Contas Oficiais do GataBot não se responsabilizam pelo uso que você fizer da função "Sub Bot".
 
 *CONDICIONES DE USO*
-_- NO haga ni intente Llamar o hacer Videollamada al Bot siendo Número(s) Oficial(es) ya que obstaculiza el funcionamiento del BOT._
+- NÃO faça nem tente ligar ou fazer videochamadas para o Bot sendo Número(s) Oficial(es), pois isso obstaculiza o funcionamento do BOT.
 
-_- NO usar el Bot siendo Número(s) Oficial(es) para llevar a cabo alguna acción hostil que pueda verse comprometida el Funcionamiento del BOT._
+- NÃO use o Bot sendo Número(s) Oficial(es) para realizar alguma ação hostil que possa comprometer o funcionamento do BOT.
 
-_- NO use el comando de SPAM repetidamente, ya que Provocará un Mal funcionamiento en el BOT, tampoco envie al BOT mensajes que puedan comprometer el Funcionamiento de la misma._
+- NÃO use o comando de SPAM repetidamente, pois isso provocará um mau funcionamento no BOT; também não envie mensagens ao BOT que possam comprometer o funcionamento do mesmo.
 
-_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los/las Usuarios(as) y funcionamiento de GataBot._
+- Ao fazer uso de certos comandos com o objetivo de causar desconforto, intranquilidade, aborrecimento ou outro termo agressivo, serão aplicadas as devidas sanções ou alertas para preservar a integridade dos(as) Usuários(as) e o funcionamento do GataBot.
 
-
-*ESTE ES EL REPOSITORIO OFICIAL*
+*ESTE É O REPOSITÓRIO OFICIAL*
 *https://github.com/GataNina-Li/GataBot-MD*
+*ESTE É O REPOSITÓRIO EM PT-BR*
+*https://github.com/SCARED9846/SAFIRA
 
 
-*CUENTA OFICIAL DE ASISTENCIA - INSTAGRAM*
-~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre GataBot, También puede Comunicarse en Caso de Temas de Colaboración_
-*https://www.instagram.com/gata_dios*
+*CONTA OFICIAL DE ASSISTÊNCIA - INSTAGRAM*
+*https://www.instagram.com/gabrielp3887*
 
 
-*DONAR A LA CREADORA EN ESTA CUENTA OFICIAL*
-~ _Si te Agrada y valoras el Trabajo que he realizado, puedes ayudarme en Donar para que pueda continuar en este Proyecto_
+*DOE AO ​​CRIADOR NESTA CONTA OFICIAL*
 *https://paypal.me/OficialGD*
-
+*DOE AO ​TRADUTOR*
+*https://paypal.me/
 
 *~ Muchas Gracias Por tomarte el tiempo en informate sobre GataBot*` 
 conn.sendButton(m.chat, Terminos, `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Cuenta Oficial\nhttps://www.instagram.com/gata_dios`, pp, [
-['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 💫', '.allmenu'],
-['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 | 𝙈𝙚𝙣𝙪 𝙇𝙞𝙨𝙩 🌟', '/menulista'],
-['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 | 𝙈𝙖𝙞𝙣 𝙢𝙚𝙣𝙪 �', '#menu']
+['𝙈𝙚𝙣𝙪 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 💫', '.allmenu'],
+['𝙈𝙚𝙣𝙪 𝙇𝙞𝙨𝙩 🌟', '/menulista'],
+['𝙈𝙖𝙞𝙣 𝙢𝙚𝙣𝙪 �', '#menu']
 ], m)
 /*.trim()
 conn.sendHydrated(m.chat, Terminos,  `${wm}\nEstamos de acuerdo en Hacer Colaboraciones con Personas Comprometidas, manteniendo el Respeto Puedes Contactar si ese es el caso a esta Cuenta Oficial | https://www.instagram.com/gata_dios`, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 💫', '.allmenu'],
 ['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 | 𝙈𝙚𝙣𝙪 𝙇𝙞𝙨𝙩 🌟', '/menulista'],
-['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 | 𝙈𝙖𝙞𝙣 𝙢𝙚𝙣𝙪 �?', '#menu']
+['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 | 𝙈𝙖𝙞𝙣 𝙢𝙚𝙣𝙪 �?', '#menu']
 ], m,)*/
 }
 
