@@ -34,10 +34,10 @@ global.lenguajeGB = pt  //Idioma de GataBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.openai_key = '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'
+global.openai_key = ''
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
-global.openai_org_id = 'org-GfmVqsYHPoUfFQn4E0hIRVn7'
+global.openai_org_id = ''
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 
@@ -94,7 +94,7 @@ global.moment = moment
 global.official = [ // Agregate si eres Owner
 ['553899109129', 'Gabriel💻', 1], 
 ['99999999999', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-['59894808483', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+['99999999999', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ['99999999999', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
 ['99999999999', 'Prueba', 1]] 
 
@@ -257,8 +257,8 @@ global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('America/Sao_Paulo').format('DD/MM/YY')}` //Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Sao_Paulo').format('HH:mm:ss')}`//America/Los_Angeles
 global.fgif = {
             key: {
                  participant : '0@s.whatsapp.net'},
