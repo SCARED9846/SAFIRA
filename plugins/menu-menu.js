@@ -101,7 +101,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *SΛCoins ➟* ${money} 💵
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
-*╭━〔 INFORMAÇÃO DA SΛFIRΛ BOT 〕⬣*
+*╭━〔 INFORMAÇÃO DA SΛRΛH BOT 〕⬣*
 ┃💫➺ _${usedPrefix}cuentasgb_
 ┃💫➺ _${usedPrefix}grupos_
 ┃💫➺ _${usedPrefix}donate_
@@ -112,12 +112,12 @@ ${readMore}
 ┃💫➺ _${usedPrefix}ping_
 ┃💫➺ _Bot_ 
 ┃💫➺ _termos e condições
-┃💫➺ _TRADUÇÃO EM: 37%
+┃💫➺ _TRADUÇÃO EM: 49%
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 FUNÇÃO SUB BOT 〕━⬣*
 ┃ *Agora você pode converter*
-┃ *Número na SΛFIRΛ!!*
+┃ *Número na SΛRΛH!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃💻 _${usedPrefix}serbot
 ┃💻 _${usedPrefix}bots
@@ -134,7 +134,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 PARTICIPE DO GRUPO 〕━⬣*
-┃ *Combine SΛFIRΛ em Grupos!!*
+┃ *Combine SΛRΛH em Grupos!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🪅 _${usedPrefix}botemporal *URL* *Tempo*_
 ┃🪅 _${usedPrefix}addbot *URL* *Tempo*_
@@ -191,7 +191,7 @@ ${readMore}
 
 *╭━〔 AI 〕━⬣*
 ┃ *Você tem a chance de*
-┃ *Fale com SΛFIRΛ!!*
+┃ *Fale com SΛRΛH!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🪄➺ _${usedPrefix}simi | okgoogle *texto*_
 ┃🪄➺ _${usedPrefix}alexa | siri | cortana *texto*_
@@ -282,7 +282,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━[ CONFIGURAÇÕES - GRUPOS ]━⬣*
-┃ *Melhore seu Grupo com SΛFIRΛ!!*
+┃ *Melhore seu Grupo com SΛRΛH!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🌐➺ _${usedPrefix}add *numero*_
 ┃🌐➺ _${usedPrefix}sacar | ban | kick  *@tag*_
@@ -451,7 +451,7 @@ ${readMore}
 *╰━━━━━━━━━━━━⬣*
 
 *╭━━[ PESQUISAS 🔍 ]━━⬣*
-┃ *Encontre o que deseja com o SΛFIRΛ!!*
+┃ *Encontre o que deseja com o SΛRΛH!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🔍➺ _${usedPrefix}animeinfo *texto*_
 ┃🔍➺ _${usedPrefix}mangainfo *texto*_
@@ -527,7 +527,7 @@ ${readMore}
 ┃⚗️➺ _${usedPrefix}trabajar | work_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━━━[TOP NO SΛFIRΛ]━━⬣*
+*╭━━━[TOP NO SΛRΛH]━━⬣*
 ┃ *Descubra em qual Top você está!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🏆➺ _${usedPrefix}top | lb | leaderboard_

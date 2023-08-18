@@ -12,7 +12,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['14154603983', 'SΛFIRΛ - 𝗠𝗗', true],  
+  ['14154603983', 'SΛRΛH - 𝗠𝗗', true],  
   ['553899109129', '𝙊𝙬𝙣𝙚𝙧 (1) 💻', true],
   ['553899248390', '𝘾𝙪𝙨𝙩𝙤𝙢𝙚𝙧 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🥏', true]
 ]
@@ -103,19 +103,19 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = 'SΛFIRΛ - 𝗠𝗗 🐈'
-global.author = 'SΛFIRΛ - 𝗠𝗗'
+global.packname = 'SΛRΛH - 𝗠𝗗 🐈'
+global.author = 'SΛRΛH - 𝗠𝗗'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = '1.4.9'
 global.vsJB = '2.0'
 
-global.gt = 'SΛFIRΛ-𝙈𝘿'
+global.gt = 'SΛRΛH - 𝙈𝘿'
 global.yt = 'https://youtube.com/'
 global.yt2 = 'https://www.youtube.com/'
-global.ig = 'https://www.instagram.com/gabrielp3887'
-global.md = 'https://github.com/SCARED9846/SAFIRA.git'
+global.ig = 'https://www.instagram.com/_rog.scr_'
+global.md = 'https://github.com/SCARED9846/'
 global.fb = 'https://www.facebook.com/'
 
 global.nna = 'https://chat.whatsapp.com/' //UPDATE GATABOT
